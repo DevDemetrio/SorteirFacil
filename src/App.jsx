@@ -1,3 +1,4 @@
+import NumberCircle from "./componets/NumberCircle"
 import { Title } from "./componets/Title/styled"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <Title>
         Sorteio fácil
       </Title>
+      <NumberCircle />
     </>
   )
 }
