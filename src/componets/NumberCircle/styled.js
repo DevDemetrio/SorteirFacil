@@ -7,7 +7,7 @@ export const NumberContainer = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: FFFFFF;
+  background-color: #FFFFFF;
 `
 
 export const NumberSort = styled.span`
