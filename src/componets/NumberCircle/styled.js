@@ -3,6 +3,10 @@ import styled from "styled-components"
 export const NumberContainer = styled.div`
   width: 8.437rem;
   height: 8.437rem;
+  
+  margin-left: auto;
+  margin-right: auto;
+
   display: flex;
   justify-content: center;
   align-items: center;
