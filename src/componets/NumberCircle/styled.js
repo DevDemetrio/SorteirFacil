@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const NumberContainer = styled.div`
   width: 8.437rem;
- height: 8.437rem;
+  height: 8.437rem;
   display: flex;
   justify-content: center;
   align-items: center;
