@@ -4,12 +4,18 @@ import React from 'react'
 const NumberCircle = () =>{
 
   const [NumberRandom, setNumberRandom] = React.useState(0);
+  const [drawNumber, setDrawNumber] = React.useState(false);
 
-const teste= () =>{
- 
-    {setNumberRandom(Math.floor(Math.random() * 100))}
 
-}
+  React.useEffect(() =>{
+    if(drawNumber){
+      {setNumberRandom(Math.floor(Math.random() * 100))}
+      setDrawNumber(false);
+    }
+  },[drawNumber])
+  
+
+
 
   return(
     <NumberContainer>
@@ -17,7 +23,7 @@ const teste= () =>{
           {NumberRandom}
       </NumberSort>
 
-      <button onClick={teste}>Teste</button>
+      <button onClick={() => setDrawNumber(true)}>Teste</button>
     </NumberContainer>
   )
 }

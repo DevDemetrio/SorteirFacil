@@ -1,4 +1,3 @@
-
 import { Main } from "./componets/MainContainer/styled"
 import NumberCircle from "./componets/NumberCircle"
 import { Title } from "./componets/Title/styled"
