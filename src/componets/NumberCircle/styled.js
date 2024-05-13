@@ -4,8 +4,7 @@ export const NumberContainer = styled.div`
   width: 8.437rem;
   height: 8.437rem;
   
-  margin-left: auto;
-  margin-right: auto;
+  margin: 3.31rem auto 0 auto;
 
   display: flex;
   justify-content: center;
@@ -17,4 +16,6 @@ export const NumberContainer = styled.div`
 export const NumberSort = styled.span`
   font-size: 40px;
   font-weight: bold;
+
+  color: #002E35;
 `
